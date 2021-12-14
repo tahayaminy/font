@@ -1,5 +1,11 @@
-# responsive-web-persian-font
+# font
 
-place whole of this repository in css folder.
-
-* in sass folder, just insert font.css untill compiled to css. the rest folder and font files must be place in css folder. *
+***use this link into your head tag***
+```
+<link rel="preload" as="font" type="font/woff" crossorigin href="https://parswebdesigners.github.io/font/iransansxv.woff" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="https://parswebdesigners.github.io/font/iransansxv.woff2" />  
+<link rel="preload" as="font" type="font/ttf" crossorigin href="https://parswebdesigners.github.io/font/hack.ttf" />
+<link rel="preload" as="font" type="font/woff" crossorigin href="https://parswebdesigners.github.io/font/staticfonts/iransansx-bold.woff" />
+<link rel="preload" as="font" type="font/woff" crossorigin href="https://parswebdesigners.github.io/font/staticfonts/iransansx-regular.woff" />
+<link rel="stylesheet" href="https://parswebdesigners.github.io/font/font.css"/>
+```
