@@ -1,17 +1,18 @@
 @font-face {
   font-family: "iransansxv";
-  src: url("iransansxv.woff") format("woff-variations"), url("iransansxv.woff") format("woff");
+  src: url("iransansxv.woff") format("woff-variations"),
+    url("iransansxv.woff") format("woff");
   /* for the other supporting browsers */
   font-weight: 100 900;
   font-display: fallback;
 }
 @font-face {
   font-family: iransansx;
-  src: url("staticfonts/iransansxv-regular.woff") format("woff");
+  src: url("staticfonts/iransansx-regular.woff") format("woff");
 }
 @font-face {
   font-family: iransansx;
-  src: url("staticfonts/iransansxv-bold.woff") format("woff");
+  src: url("staticfonts/iransansx-bold.woff") format("woff");
   font-weight: 700;
 }
 @font-face {
@@ -34,7 +35,11 @@ select {
 }
 
 @supports (font-variation-settings: normal) {
-  body {
+  body,
+  input,
+  button,
+  textarea,
+  select {
     font-family: "iransansxv", en, tahoma;
   }
 }
