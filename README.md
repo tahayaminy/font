@@ -9,3 +9,10 @@
 <link rel="preload" as="font" type="font/woff" crossorigin href="https://parswebdesigners.github.io/font/staticfonts/iransansx-regular.woff" />
 <link rel="stylesheet" href="https://parswebdesigners.github.io/font/font.css"/>
 ```
+***use mixin in sass for bold***
+```
+@mixin bold {
+  font-weight: 900;
+  font-variation-settings: "wght" 900, "dots" 7;
+}
+```
